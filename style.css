@@ -32,15 +32,15 @@ div {
 
 }
 
-.fontSize2 {
+#fontSize2 {
  	font-size: 48px;   
 }
 
-.fontSize3 {
+#fontSize3 {
 	font-size: 36px;
 }
 
-.fontSize4 {
+#fontSize4 {
  	font-size: 26px;   
     
 }
@@ -126,7 +126,7 @@ div {
 
 #travelOften{
 	font-size: 33.5px;
-    line-height: 33.5px;
+    line-height: 37px;
 }
 
 #lost {
