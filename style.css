@@ -1,0 +1,190 @@
+body {
+    margin: 0 auto;
+}
+
+
+section {
+    width: 509px;
+    padding: 20px;
+    
+}
+
+p {
+    color: #2c3e50;
+    font-family: 'Rockwell';
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 0;
+   
+
+}
+
+div {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#life-span {
+	font-size: 120px; 
+    float: right;
+    line-height: 100px;
+
+}
+
+.fontSize2 {
+ 	font-size: 48px;   
+}
+
+.fontSize3 {
+	font-size: 36px;
+}
+
+.fontSize4 {
+ 	font-size: 26px;   
+    
+}
+
+#jobQuit {
+    font-size: 29px;
+}
+
+#likeChange {
+	font-size: 22.5px;
+}
+
+#whatULove{
+    font-size: 22px; 
+    line-height: 20px;
+}
+
+.timeTV {
+	font-size: 18px;
+}
+
+
+
+#waiting {
+    font-size: 22px;;
+}
+
+#thingsULove {
+    font-size: 31.5px;
+    line-height: 30px;
+    
+}
+
+
+
+
+#analyzing {
+    font-size:  21px;
+    
+}
+
+#simple {
+    font-size: 35px;
+    line-height: 36px;
+}
+
+.half-width-wp {
+    width: 49%;
+    padding-left: 5px;
+}
+
+#eat {
+    font-size: 16px;
+    line-height: 14px;
+}
+
+#bite {
+    font-size: 29px;
+    line-height: 27px;
+}
+
+#openMind {
+    font-size: 19px;
+}
+
+
+#differences {
+    font-size: 20px;
+}
+
+#passion {
+    font-size: 18px;
+}
+
+#share {
+    font-size: 21.5px;
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+#travelOften{
+	font-size: 33.5px;
+    line-height: 33.5px;
+}
+
+#lost {
+    font-size: 25px;
+    line-height: 21px;
+}
+
+
+#find {
+    font-size: 19.3px;
+    line-height: 16px;
+}
+
+
+#opportunities {
+    font-size: 18px;
+}
+
+#people {
+    font-size: 24px;
+}
+
+#create {
+    font-size: 27px;
+}
+
+#goOut {
+    font-size: 30.2px;
+    line-height: 28px;
+}
+
+#short {
+    font-size: 63px;
+    line-height: 60px;
+    
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-60-wp {
+    width: 57%;
+    padding-left: 15px;
+}
+
+#liveDream {
+    font-size: 32px;
+}
+
+#andShare {
+    font-size: 50px;
+    line-height: 40px;
+}
+
+#yourPassion {
+    font-size: 39px;
+}
+
+
+
