@@ -1,0 +1,103 @@
+/********* BASE STYLES *************/
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #skills, #contact {
+    height: 600px;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+  
+}
+
+header {
+  background-image:url("img/full-background.png");
+  
+  
+}
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  color: #828282;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  line-height: 48px;
+  text-transform: uppercase;
+
+}
+
+nav a:hover {
+  color: fuchsia; 
+}
+
+nav ul {
+  margin-right: 100px;
+}
+
+nav li {
+  padding-left: 50px;
+}
+
+h1 {
+  color: #828282;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+#about h2 {
+  color: #262a2b;
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+#about p {
+  color: #7f7f7f;
+  font-family: "Source Sans Pro", serif;
+  font-size: 21px;
+  line-height: 40px;
+  padding-right: 50px;
+}
+
+nav h3 {
+  color: #bbc085;
+  font-family: "Myriad Pro";
+  font-size: 30px;
+  line-height: 54px;
+  
+}
+
+#skills p {
+  
+  
+}
+
