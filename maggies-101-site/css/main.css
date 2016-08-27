@@ -12,21 +12,16 @@ body {
 .full-width {
   width: 1200px;
   margin: 0 auto;
-
-}
-
-
-
-.third-width {
-  width: 400px;
-  float: left;
-  text-align: center;
 }
 
 .half-width {
   width: 600px;
   float: left;
-  
+}
+
+.third-width {
+  width: 400px;
+  float: left;
 }
 
 li {
@@ -37,7 +32,7 @@ a {
   text-decoration: none;
 }
 
-/******** STYLES FOR HEADER SECTION ********/
+/******** STYLES FOR HEADER & NAV SECTION ********/
 
 header {
   background-image:url("img/full-background.png");
@@ -50,7 +45,6 @@ nav a {
   font-size: 18px;
   line-height: 48px;
   text-transform: uppercase;
-
 }
 
 nav a:hover {
@@ -97,7 +91,6 @@ h1 {
 
 #about p {
   color: #7f7f7f;
-  font-family: "Source Sans Pro", serif;
   font-size: 21px;
   line-height: 40px;
   padding-right: 50px;
@@ -107,6 +100,8 @@ h1 {
 
 #skills {
   background-color: #f9ceb7;
+  text-align: center;
+
 }
 
 #skills .full-width {
@@ -117,8 +112,25 @@ h1 {
 #skills img {
   padding-bottom: 30px;
 }
+
+/*#skills img[src="img/html-icon.png"] {
+  padding-bottom: 20px;
+}*/
+
+#skills h3 {
+  color: #262a2b;
+  font-size: 24px;
+  font-weight: bold;
+  width: 188px;
+  margin: 0 auto;
+}
+
 #skills p {
-  
+  color: #262a2b;
+  font-family: "Lora";
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 35px;
   
 }
 
