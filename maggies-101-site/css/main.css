@@ -134,3 +134,58 @@ h1 {
   
 }
 
+/********* STYLES FOR CONTACT SECTION *******/
+#contact {
+  background-color: #ebebeb;
+  
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact-img{
+  border: 12px solid #fff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#envelope {
+    padding: 8px 10px 0 115px;
+}
+
+#contact h2 {
+  color:262a2b;
+  font-family: "Lora", serif;
+  font-size: 36px;
+  line-height: 24px;
+  
+}
+
+#email-header {
+  color: #262a2b;
+  font-size: 32px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+#socialmedia-header {
+  color: #262a2b;
+  font-size: 29px;
+  line-height: 24px;
+  font-weight: bold;
+  
+}
+
+#contact a {
+  color: #c49075;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+#contact li {
+  padding-right: 48px;
+}
