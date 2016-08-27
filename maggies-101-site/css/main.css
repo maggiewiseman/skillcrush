@@ -36,7 +36,7 @@ a {
 
 header {
   background-image:url("img/full-background.png");
-  height: 780px;
+  height: 800px;
   
 }
 nav a {
@@ -61,17 +61,18 @@ nav li {
 
 nav h3 {
   color: #bbc085;
-  font-family: "Myriad Pro";
+  font-family: "Lora";
   font-size: 30px;
   line-height: 54px;
   
 }
 
-h1 {
+header h1 {
   color: #828282;
   font-family: "Lora", serif;
   font-weight: bold;
   line-height: 60px;
+  padding: 50px 0;
 }
 
 /********* SYLES FOR ABOUT SECTION *********/
