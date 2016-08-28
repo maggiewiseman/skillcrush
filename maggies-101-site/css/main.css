@@ -15,13 +15,13 @@ body {
 }
 
 .half-width {
-  width: 600px;
   float: left;
+  width: 600px;
 }
 
 .third-width {
-  width: 400px;
   float: left;
+  width: 400px;
 }
 
 li {
@@ -35,8 +35,8 @@ a {
 /******** STYLES FOR HEADER & NAV SECTION ********/
 
 header {
-  background-size: cover;
   background-image:url("../img/full-background.png");
+  background-size: cover;
   height: 800px;
   
 }
@@ -52,8 +52,8 @@ nav a:hover {
 }
 
 nav ul {
+  padding-left: 225px;
   padding-top: 40px;
-  padding-left: 225px
 }
 
 nav li {
@@ -71,11 +71,12 @@ nav h3 {
 
 header h1 {
   color: #9a9b9b;
+  clear: both;
   font-family: "Lora", serif;
   font-size: 75px;
   font-weight: bold;
   padding: 50px 0;
-  clear: both;
+  
 }
 
 header h1 span {
@@ -129,8 +130,8 @@ header h1 span {
   color: #262a2b;
   font-size: 24px;
   font-weight: bold;
-  width: 188px;
   margin: 0 auto;
+  width: 188px;
 }
 
 #skills p {
@@ -177,16 +178,15 @@ header h1 span {
 #email-header {
   color: #262a2b;
   font-size: 32px;
-  line-height: 10px;
   font-weight: 500;
+  line-height: 10px;
 }
 
 #socialmedia-header {
   color: #262a2b;
   font-size: 29px;
-  line-height: 24px;
   font-weight: bold;
-  
+  line-height: 24px;
 }
 
 #contact a {
