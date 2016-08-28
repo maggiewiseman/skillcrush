@@ -48,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-  color: fuchsia; 
+  color: #bbc085; 
 }
 
 nav ul {
@@ -122,10 +122,6 @@ header h1 span {
   padding-bottom: 30px;
 }
 
-/*#skills img[src="img/html-icon.png"] {
-  padding-bottom: 20px;
-}*/
-
 #skills h3 {
   color: #262a2b;
   font-size: 24px;
@@ -146,7 +142,6 @@ header h1 span {
 /********* STYLES FOR CONTACT SECTION *******/
 #contact {
   background-color: #ebebeb;
-  
 }
 
 #contact .full-width {
@@ -172,7 +167,6 @@ header h1 span {
   font-size: 36px;
   line-height: 10px;
   padding-top: 40px;
-  
 }
 
 #email-header {
