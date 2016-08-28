@@ -6,14 +6,91 @@
 
 body {
   font-family:  "Montserrat";
+  padding: 0 20px;
 }
-/************** BASE STYLES **************/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+  
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  padding: 30px;
+  width: 400px;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, header a {
+  text-transform: uppercase;
+}
+
+.color-brand {
+  color: #77a466;
+}
 
 
-/************** BASE STYLES **************/
+/************** HEADER/NAV STYLES **************/
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-top: 40px;
+}
+
+header ul {
+  float: right;
+  padding-top: 75px;
+}
+
+header li {
+  display: inline;
+  
+}
+
+header a {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-left: 20px;
+}
 
 
-/************** BASE STYLES **************/
+/************** WELCOME SECTION STYLES **************/
+img {
+  border: 2px solid #77a466;
+  box-sizing: border-box;
+}
+
+#welcome h2 {
+  
+}
+
+#welcome p {
+  
+}
+
+
+
+/************** INFO SECTION STYLES **************/
 
 
 /************** FOTTER STYLES **************/
+footer {
+  clear: both;
+}
+
+footer span {
+  font-family: "WisdomScript";
+  text-transform: lowercase;
+}
