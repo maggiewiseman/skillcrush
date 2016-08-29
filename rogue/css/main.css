@@ -17,12 +17,12 @@ body {
 
 .half-width {
   float: left;
-  width: 600px;
+  width: 50%;
 }
 
 .third-width {
   float: left;
-  width: 400px;
+  width: 33.33%;
   
 }
 
@@ -86,11 +86,16 @@ img {
 
 /************** INFO SECTION STYLES **************/
 
-#reviews-heading, #contact-heading, #info p, #info address {
+#reviews-heading, 
+#contact-heading, 
+#info p, 
+#info address {
   padding: 0px 30px;
 }
 
-#specials-div, #reviews-div, #contact-div {
+#specials-div, 
+#reviews-div, 
+#contact-div {
   height: 200px;
   box-sizing: border-box;
 }
@@ -117,7 +122,8 @@ img {
   line-height: 24px; 
 }
 
-#specials-div, #contact-div{
+#specials-div, 
+#contact-div{
   border-top: 1px #dedbdc solid;
   border-bottom: 1px #dedbdc solid;
 }
@@ -132,7 +138,7 @@ footer {
   clear: both;
 }
 
-footer h3 {
+footer h2 {
   font-size: 16px;
   font-weight: bold;
   line-height: 23px;
