@@ -1,0 +1,152 @@
+/************** BASE STYLES **************/
+@font-face {
+  font-family: "WisdomScript";
+  src: url('../fonts/WisdomScriptAJ.otf') format('opentype');
+}
+
+body {
+  font-family:  "Montserrat";
+  padding: 0 20px;
+}
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+  
+}
+
+.half-width {
+  float: left;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  width: 33.33%;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, header a {
+  text-transform: uppercase;
+}
+
+.color-brand {
+  color: #77a466;
+}
+
+
+/************** HEADER/NAV STYLES **************/
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-top: 40px;
+}
+
+header ul {
+  float: right;
+  padding-top: 75px;
+}
+
+header li {
+  display: inline;
+  
+}
+
+header a {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-left: 20px;
+}
+
+
+/************** WELCOME SECTION STYLES **************/
+img {
+  border: 2px solid #77a466;
+  box-sizing: border-box;
+}
+
+#welcome h2 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+#welcome p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+
+
+/************** INFO SECTION STYLES **************/
+
+#reviews-heading, 
+#contact-heading, 
+#info p, 
+#info address {
+  padding: 0px 30px;
+}
+
+#specials-div, 
+#reviews-div, 
+#contact-div {
+  height: 200px;
+  box-sizing: border-box;
+}
+#info h3 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 23px; 
+}
+
+#info a {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+#info p {
+  font-size: 16px;
+  line-height: 20px; 
+  width: 350px;
+}
+
+#info address {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px; 
+}
+
+#specials-div, 
+#contact-div{
+  border-top: 1px #dedbdc solid;
+  border-bottom: 1px #dedbdc solid;
+}
+
+#reviews-div {
+  border: 1px #dedbdc solid;
+}
+
+
+/************** FOTTER STYLES **************/
+footer {
+  clear: both;
+}
+
+footer h2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer span {
+  font-family: "WisdomScript";
+  text-transform: lowercase;
+}
