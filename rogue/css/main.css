@@ -22,7 +22,6 @@ body {
 
 .third-width {
   float: left;
-  padding: 30px;
   width: 400px;
   
 }
@@ -73,21 +72,70 @@ img {
 }
 
 #welcome h2 {
-  
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
 }
 
 #welcome p {
-  
+  font-size: 16px;
+  line-height: 25px;
 }
 
 
 
 /************** INFO SECTION STYLES **************/
 
+#reviews-heading, #contact-heading, #info p, #info address {
+  padding: 0px 30px;
+}
+
+#specials-div, #reviews-div, #contact-div {
+  height: 200px;
+  box-sizing: border-box;
+}
+#info h3 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 23px; 
+}
+
+#info a {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+#info p {
+  font-size: 12px;
+  line-height: 20px; 
+  width: 250px;
+}
+
+#info address {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px; 
+}
+
+#specials-div, #contact-div{
+  border-top: 1px #dedbdc solid;
+  border-bottom: 1px #dedbdc solid;
+}
+
+#reviews-div {
+  border: 1px #dedbdc solid;
+}
+
 
 /************** FOTTER STYLES **************/
 footer {
   clear: both;
+}
+
+footer h3 {
+  font-size: px;
+  font-weight: bold;
+  line-height: px;
 }
 
 footer span {
