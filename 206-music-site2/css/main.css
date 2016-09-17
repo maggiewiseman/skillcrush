@@ -94,10 +94,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ------ Mobile Styles -- */
 
+header {
+  width: 100%;
+}
 
+nav {
+  width: 100%;
+}
 
+main {
+  width: 96%;
+  margin: auto;
+  padding: 0 2%;
+}
 
+section {
+  width: 100%
+}
+
+article {
+  width: 100%;
+}
+
+aside {
+  width: 100%;
+}
+
+footer {
+  width: 47.5%;
+  margin: 0 auto;
+}
 
 
 
@@ -191,8 +219,57 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media screen and (min-width: 768px) {
+    /* Tablet Styles */
+  
+  .main-header {
+    width: 94%;
+    background: blue;
+  }
+  
+  .logo-img {
+    width: 40%;
+    float: left;
+  }
+  
+
+  nav {
+    width: 60%;
+    float: right;
+  }
+/* Here's where I left off.  Need to do layout styles for tablets... header ok, need to change main section.
+  main {
+    width: 96%;
+    margin: auto;
+    padding: 0 2%;
+  }
+
+  section {
+    width: 100%
+  }
+
+  .top-story {
+    width: 100%;
+  }
+  
+  .top-img {
+    width: 57%;
+    float: left;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  footer {
+    width: 47.5%;
+    margin: 0 auto;
+  }
+*/  
+}
+
+@media screen and (min-width: 940px) {
+    /* Desktop Styles */
 }
 
 @media print,
