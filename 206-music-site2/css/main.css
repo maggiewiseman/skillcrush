@@ -237,29 +237,50 @@ footer {
     width: 60%;
     float: right;
   }
-/* Here's where I left off.  Need to do layout styles for tablets... header ok, need to change main section.
-  main {
-    width: 96%;
-    margin: auto;
-    padding: 0 2%;
+  
+  nav li {
+    display: inline;
   }
-
-  section {
-    width: 100%
-  }
-
+  
+  /*** featured news item ***/
   .top-story {
     width: 100%;
+    
   }
   
   .top-img {
     width: 57%;
     float: left;
   }
-
+  
+  .top-info, .top-article-header {
+    width: 37%;
+    float: left;
+  }
+  
   aside {
+    width: 37%;
+    float: right;
+  }
+  
+  .feed {
+    width: 57%;
+    float: left;
+  }
+  
+  .feed-item {
     width: 100%;
   }
+  
+  .feed-img {
+    width: 20%;
+    float: left;
+  }
+  
+  .feed-item-header {
+    width: 65%;
+  }
+/* Here is where I left off. The hero area doesn't look right.  Need to write out the structure of the page and maybe plan it out on paper first! 
 
   footer {
     width: 47.5%;
