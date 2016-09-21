@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 /* ------ Mobile Styles -- */
 
-header {
+main-header {
   width: 100%;
 }
 
@@ -122,14 +122,52 @@ aside {
   width: 100%;
 }
 
+.sidebar-btn {
+  width: 100%;
+}
+
+#upcoming, #faq {
+  display: none;
+}
+
+.feed {
+    width: 100%;
+}
+  
+.feed-item {
+  width: 100%;
+}
+
+.feed-img {
+  width: 40%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.feed-item-header {
+  width: 60%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.feed-content {
+  display: none;
+}
+
 footer {
   width: 47.5%;
   margin: 0 auto;
+
 }
 
 
+/*** Detail Page Styles ***/
 
-
+.author, .pub-date {
+  display: inline-block;
+}
 
 
 
@@ -222,10 +260,7 @@ footer {
 @media screen and (min-width: 768px) {
     /* Tablet Styles */
   
-  .main-header {
-    width: 94%;
-    background: blue;
-  }
+
   
   .logo-img {
     width: 40%;
@@ -251,6 +286,9 @@ footer {
   .top-img {
     width: 57%;
     float: left;
+    padding: 0;
+    margin: 0;
+  
   }
   
   .top-info, .top-article-header {
@@ -258,39 +296,74 @@ footer {
     float: left;
   }
   
+  /*** sidebar styles ***/
+  
   aside {
     width: 37%;
     float: right;
+    clear: both;
   }
+  
+  #upcoming, #faq {
+    display:block;
+  }
+
+  /*** feed styles ***/
   
   .feed {
     width: 57%;
     float: left;
   }
   
-  .feed-item {
-    width: 100%;
-  }
-  
+    
   .feed-img {
-    width: 20%;
+    width: 33%;
     float: left;
   }
   
   .feed-item-header {
-    width: 65%;
+    width: 66%;
   }
-/* Here is where I left off. The hero area doesn't look right.  Need to write out the structure of the page and maybe plan it out on paper first! 
 
   footer {
-    width: 47.5%;
+    width: 100%;
+    clear: both;
+  }
+  
+  .footer-img {
+    width: 30%;
     margin: 0 auto;
   }
-*/  
+  
+  /*** Detail Page Styles ***/
+  .detail .top-image {
+    width: 50%;
+    float: left;
+  }
+  
+  .detail {
+    width: 100%;
+    float:none;
+  }
+  
+  .detail-info {
+    width: 50%;
+    float: right;
+  }
+  
+  .detail-content {
+    clear: both;
+  }
+  
+  
+  }
+  
 }
 
 @media screen and (min-width: 940px) {
     /* Desktop Styles */
+  
+  
 }
 
 @media print,
