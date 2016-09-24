@@ -277,7 +277,7 @@ footer {
     display: inline;
   }
   
-  /*** featured news item ***/
+  /*** featured news item for tablet***/
   .top-story {
     width: 100%;
   }
@@ -295,7 +295,7 @@ footer {
     float: left;
   }
   
-  /*** sidebar styles ***/
+  /*** sidebar styles for tablet ***/
   
   aside {
     width: 37%;
@@ -307,7 +307,7 @@ footer {
     display:block;
   }
 
-  /*** feed styles ***/
+  /*** feed styles for tablet ***/
   
   .feed {
     width: 57%;
@@ -324,6 +324,7 @@ footer {
     width: 66%;
   }
 
+  /*** footer styles for tablet ***/
   footer {
     width: 100%;
     clear: both;
@@ -334,7 +335,7 @@ footer {
     margin: 0 auto;
   }
   
-  /*** Detail Page Styles ***/
+  /*** Detail Page Styles for tablet ***/
   .detail .top-image {
     width: 50%;
     float: left;
@@ -364,7 +365,7 @@ footer {
   
   /*** Review Index Page Styles ***/
   
-    /*** sidebar styles ***/
+    /*** sidebar styles for reviews page on tablet ***/
   
     .reviews-aside {
       width: 100%;
@@ -387,7 +388,7 @@ footer {
     float: right;
   }
 
-    /*** feed styles ***/
+    /*** feed styles for reviews page on tablet ***/
 
     .feed-reviews{
       width: 90%;
@@ -406,6 +407,7 @@ footer {
     margin: 0 auto;
   }
   
+  /*** hero area styles for desktop ***/
   .hero {
     width:60%;
     float: left;
@@ -425,7 +427,7 @@ footer {
     float: none;
   }
   
-  /*** sidebar styles ***/
+  /*** sidebar styles for desktop ***/
   
   aside {
     width: 37%;
@@ -436,6 +438,17 @@ footer {
   .upcoming, .faq {
     display:block;
   }
+  
+  /*** feed styles for desktop ***/
+  
+  .feed {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+  
+    
+  
   
 }
 
