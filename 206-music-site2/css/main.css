@@ -371,7 +371,7 @@ footer {
     width: 60%;
   }
   
-  /*** Review Index Page Styles ***/
+  /*** Review Index Page Styles for Tablets ***/
   
     /*** sidebar styles for reviews page on tablet ***/
   
@@ -416,8 +416,8 @@ footer {
   }
   
   /*** hero area styles for desktop ***/
-  .hero {
-    width:60%;
+  .top-story {
+    width:57%;
     float: left;
   }
   
@@ -459,9 +459,50 @@ footer {
     display: block;
   }
   
+  /*** Detail Page Styles for Desktop ***/
   
-    
+  .detail-info {
+    float: none;
+  }
+/*  .detail .top-image {
+    width: 50%;
+    float: left;
+  }
   
+  .detail {
+    width: 100%;
+    float:none;
+  }
+  
+  
+  
+  .detail-content {
+    clear: both;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  .detail #email {
+    width: 60%;
+  }
+  */
+  
+  /*** Review Index Page Styles for Desktop ***/
+   
+    /*** sidebar styles for reviews page on desktop ***/
+  
+    .reviews-aside {
+      width: 37%;
+      float: right;    
+      
+    }
+
+    .reviews-aside .upcoming,  
+    .reviews-aside .newsletter {
+      display: block;
+    } 
   
 }
 
