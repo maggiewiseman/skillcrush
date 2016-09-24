@@ -126,7 +126,7 @@ aside {
   width: 100%;
 }
 
-#upcoming, #faq {
+.upcoming, .faq {
   display: none;
 }
 
@@ -170,7 +170,10 @@ footer {
 }
 
 
-
+/*** Reviews Index Styles ***/
+.reviews-aside .newsletter {
+  display: none;
+}
 
 
 
@@ -305,7 +308,7 @@ footer {
     clear: both;
   }
   
-  #upcoming, #faq {
+  .upcoming, .faq {
     display:block;
   }
 
@@ -364,7 +367,30 @@ footer {
     width: 60%;
   }
   
+  /*** Review Index Page Styles ***/
   
+    /*** sidebar styles ***/
+  
+    .reviews-aside {
+      width: 100%;
+      float: none;
+      
+    }
+
+    .reviews-aside .upcoming,  
+    .reviews-aside .newsletter {
+      display: none;
+    }
+
+    /*** feed styles ***/
+
+    .feed-reviews{
+      width: 90%;
+      float: none;
+    }
+
+
+   
 }
 
 @media screen and (min-width: 940px) {
