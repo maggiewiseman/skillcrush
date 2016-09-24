@@ -381,12 +381,23 @@ footer {
     .reviews-aside .newsletter {
       display: none;
     }
+  
+  .write-info {
+    width: 57%;
+    float: left;
+  }
+  
+  .write-btn-div {
+    width: 37%;
+    float: right;
+  }
 
     /*** feed styles ***/
 
     .feed-reviews{
       width: 90%;
       float: none;
+      clear: both;
     }
 
 
