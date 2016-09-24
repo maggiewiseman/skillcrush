@@ -261,15 +261,12 @@ footer {
    ========================================================================== */
 
 @media screen and (min-width: 768px) {
-    /* Tablet Styles */
-  
-
+  /* Tablet Styles */
   
   .logo-img {
     width: 40%;
     float: left;
   }
-  
 
   nav {
     width: 60%;
@@ -283,7 +280,6 @@ footer {
   /*** featured news item ***/
   .top-story {
     width: 100%;
-    
   }
   
   .top-img {
@@ -292,7 +288,6 @@ footer {
     padding: 0;
     margin: 0;
     clear:both;
-  
   }
   
   .top-info, .top-article-header {
@@ -406,7 +401,41 @@ footer {
 
 @media screen and (min-width: 940px) {
     /* Desktop Styles */
+  body {
+    width: 940px;
+    margin: 0 auto;
+  }
   
+  .hero {
+    width:60%;
+    float: left;
+  }
+  
+ 
+  .top-img {
+    width: 100%;
+    float: none;
+    /*padding: 0;
+    margin: 0;
+    clear:both; */
+  }
+  
+  .top-info, .top-article-header {
+    width: 100%;
+    float: none;
+  }
+  
+  /*** sidebar styles ***/
+  
+  aside {
+    width: 37%;
+    float: right;
+    clear: none;
+  }
+  
+  .upcoming, .faq {
+    display:block;
+  }
   
 }
 
