@@ -447,6 +447,9 @@ footer {
     clear: both;
   }
   
+  .feed-content {
+    display: block;
+  }
     
   
   
