@@ -314,14 +314,22 @@ footer {
     float: left;
   }
   
-    
+  .feed-item {
+    clear: both;
+  }  
+  
   .feed-img {
     width: 33%;
     float: left;
   }
   
-  .feed-item-header {
+  .feed-item-info {
     width: 66%;
+    float: right;
+  }
+  
+  .feed-item-header {
+    width: 100%;
   }
 
   /*** footer styles for tablet ***/
@@ -450,6 +458,8 @@ footer {
   .feed-content {
     display: block;
   }
+  
+  
     
   
   
