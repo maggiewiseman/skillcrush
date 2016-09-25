@@ -141,6 +141,7 @@ h3 {
   font-size: 1em;
 }
 
+/*** Button Styles  =============***/
 input.btn {
   background-color: #ff1256;
   box-shadow: 2px 2px 0px #DADADA; 
@@ -152,23 +153,21 @@ input.btn {
   width: 100%;
 }
 
+input.btn:hover {
+  background-color: #b21e49;
+}
+
 #faq-btn, 
 #upcoming-btn {
-  background-color: #b21e49;
-  
+  background-color: #b21e49; 
 }
 
-/*.btn:hover{
-        background-color: #ff1256;
-    }
-
-input.btn{
-    background-color: #ff1256;
+#faq-btn:hover, 
+#upcoming-btn:hover {
+  background-color: #ff1256;
 }
-    input.btn:hover{
-        background-color: #b21e49;
-    }
-*/
+
+/***  */
 .feed-type {
   text-transform: uppercase;
 }
