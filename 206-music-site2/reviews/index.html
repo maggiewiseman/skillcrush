@@ -27,10 +27,10 @@
           </figure>
           <nav>
             <ul>
-              <li><a href="#">FAQs</a></li>              
-              <li><a href="#">Concerts</a></li>
-              <li><a href="#">Reviews</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><a href="../concert/index.html">Concerts</a></li>              
+              <li><a href="../reviews/index.html">Reviews</a></li>
+              <li><a href="../about/index.html">About Us</a></li>
+              <li><a href="../about/faq.html">FAQ</a></li>
             </ul>
           </nav>
 
@@ -38,7 +38,7 @@
       
         <main>
           <!-- top story / hero area + sidebar --> 
-          <section class="hero">
+          <section class="hero reviews">
             <article class="top-story">
                 <figure class="top-img">
                   <img src="#" alt="band in concert" />
@@ -48,32 +48,37 @@
               </header>
               <p class="top-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
             </article>
-            <aside class="reviews-aside">
-              <form class="newsletter">
-              <label for="email" class="sidebar-header">Newsletter Sign-up</label>
-              <input type="email" id="email" name="email" placeholder="your@email.address"  />
-              <input type="button" id="newsletter-button" value="Sign-up"/>
-              </form> <!-- end newsletter form --> 
-              
-              <div class="upcoming">
-                <header>
-                  <h2 class="sidebar-header">Upcoming Concerts</h2>
-                </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor.</p>
-                <div class="sidebar-btn"><a href="/concerts">See All</a></div>
-              </div> <!-- end upcoming side-bar -->
-              
-              <div class="write-for-us">
-                <div class="write-info">
-                  <h2>Want to write for us?</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum.</p>
-                </div>
-                <div class="write-btn-div">
-                  <input type="button" id="newsletter-button" value="Find out more"/>
-                </div>
-              </div> <!-- end write-for-us side-bars --> 
-            </aside> <!-- end sidebar --> 
           </section>
+          
+          <aside class="sidebar reviews">
+            <form class="newsletter">
+            <label for="email" class="sidebar-header">Newsletter Sign-up</label>
+            <input type="email" id="email" name="email" placeholder="your@email.address"  />
+            <input type="button" id="newsletter-button" value="Sign-up"/>
+            </form> <!-- end newsletter form --> 
+
+            <div class="upcoming">
+              <header>
+                <h2 class="sidebar-header">Upcoming Concerts</h2>
+              </header>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor.</p>
+              <div class="sidebar-btn"><a href="/concerts">See All</a></div>
+            </div> <!-- end upcoming side-bar -->
+
+
+          </aside> <!-- end sidebar --> 
+          
+          <section class="write-for-us">
+            <hr>
+            <div class="write-info">
+              <h2>Want to write for us?</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum.</p>
+            </div>
+            <div class="write-btn-div">
+              <input type="button" id="newsletter-button" value="Find out more"/>
+            </div>
+            <hr>
+          </section> <!-- end write-for-us side-bars --> 
           <!-- reviews feed --> 
           <section class="feed feed-reviews">
             <header class="feed-header">

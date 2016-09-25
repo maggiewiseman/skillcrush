@@ -261,7 +261,7 @@ footer {
    ========================================================================== */
 
 @media screen and (min-width: 768px) {
-  /* Tablet Styles */
+  /* Tablet Styles ==============================*/
   
   .logo-img {
     width: 40%;
@@ -277,7 +277,7 @@ footer {
     display: inline;
   }
   
-  /*** featured news item for tablet***/
+  /*** featured news item for tablet ============***/
   .top-story {
     width: 100%;
   }
@@ -295,7 +295,7 @@ footer {
     float: left;
   }
   
-  /*** sidebar styles for tablet ***/
+  /*** sidebar styles for tablet ================***/
   
   aside {
     width: 37%;
@@ -307,7 +307,7 @@ footer {
     display:block;
   }
 
-  /*** feed styles for tablet ***/
+  /*** feed styles for tablet ===================***/
   
   .feed {
     width: 57%;
@@ -332,7 +332,7 @@ footer {
     width: 100%;
   }
 
-  /*** footer styles for tablet ***/
+  /*** footer styles for tablet =================***/
   footer {
     width: 100%;
     clear: both;
@@ -343,15 +343,18 @@ footer {
     margin: 0 auto;
   }
   
+  /*** feed styles for reviews page on tablet ***/
+
+    .feed-reviews{
+      width: 90%;
+      float: none;
+      clear: both;
+    }
+  
   /*** Detail Page Styles for tablet ***/
   .detail .top-image {
     width: 50%;
     float: left;
-  }
-  
-  .detail {
-    width: 100%;
-    float:none;
   }
   
   .detail-info {
@@ -363,6 +366,10 @@ footer {
     clear: both;
   }
   
+  aside.detail {
+    width: 100%;
+  }
+  
   label {
     display: block;
   }
@@ -371,63 +378,47 @@ footer {
     width: 60%;
   }
   
-  /*** Review Index Page Styles for Tablets ***/
+  /*** Review Index Page Styles for Tablets =====***/
   
     /*** sidebar styles for reviews page on tablet ***/
   
-    .reviews-aside {
-      width: 100%;
-      float: none;
-      
-    }
 
-    .reviews-aside .upcoming,  
-    .reviews-aside .newsletter {
+    aside.reviews .upcoming,  
+    aside.reviews .newsletter {
       display: none;
     }
   
-  .write-info {
-    width: 57%;
-    float: left;
-  }
-  
-  .write-btn-div {
-    width: 37%;
-    float: right;
-  }
-
-    /*** feed styles for reviews page on tablet ***/
-
-    .feed-reviews{
-      width: 90%;
-      float: none;
+    .write-for-us, hr {
       clear: both;
     }
+  
+    .write-info {
+      width: 57%;
+      float: left;
+    }
 
-
-   
+    .write-btn-div {
+      width: 37%;
+      float: right;
+    }   
 }
 
 @media screen and (min-width: 940px) {
-    /* Desktop Styles */
+  /*** Desktop Styles =============================*/
   body {
     width: 940px;
     margin: 0 auto;
   }
   
-  /*** hero area styles for desktop ***/
-  .top-story {
+  /*** hero area styles for desktop =============***/
+  .hero {
     width:57%;
     float: left;
   }
   
- 
   .top-img {
     width: 100%;
     float: none;
-    /*padding: 0;
-    margin: 0;
-    clear:both; */
   }
   
   .top-info, .top-article-header {
@@ -437,8 +428,8 @@ footer {
   
   /*** sidebar styles for desktop ***/
   
-  aside {
-    width: 37%;
+  .sidebar {
+    width: 30%;
     float: right;
     clear: none;
   }
@@ -459,51 +450,29 @@ footer {
     display: block;
   }
   
-  /*** Detail Page Styles for Desktop ***/
+   /*** Review Index Page Styles for Desktop ====***/
+   
+    /*** sidebar styles for reviews page on desktop ***/
+    aside.reviews .upcoming,  
+    aside.reviews .newsletter {
+      display: block;
+    }
   
-  .detail-info {
-    float: none;
-  }
-/*  .detail .top-image {
-    width: 50%;
+  /*** Detail Page Styles for Desktop ***/
+  article.detail {
+    width: 57%;
     float: left;
   }
   
-  .detail {
+  .detail-info {
     width: 100%;
-    float:none;
+    float: none;
+  }  
+  
+  aside.detail {
+    width: 37%;
+    clear: none;
   }
-  
-  
-  
-  .detail-content {
-    clear: both;
-  }
-  
-  label {
-    display: block;
-  }
-  
-  .detail #email {
-    width: 60%;
-  }
-  */
-  
-  /*** Review Index Page Styles for Desktop ***/
-   
-    /*** sidebar styles for reviews page on desktop ***/
-  
-    .reviews-aside {
-      width: 37%;
-      float: right;    
-      
-    }
-
-    .reviews-aside .upcoming,  
-    .reviews-aside .newsletter {
-      display: block;
-    } 
-  
 }
 
 @media print,
