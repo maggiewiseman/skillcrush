@@ -152,24 +152,23 @@ input.btn {
   width: 100%;
 }
 
-.sidebar-btn {
+#faq-btn, 
+#upcoming-btn {
   background-color: #b21e49;
-  box-shadow: 2px 2px 0px #DADADA;
-  height: 2.5em;
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
-
-}
-
-.sidebar-btn a {
-  color: white;
-  font-size: 1.125em;
-  line-height: 1.5em;
-  text-decoration: none;
   
 }
 
+/*.btn:hover{
+        background-color: #ff1256;
+    }
+
+input.btn{
+    background-color: #ff1256;
+}
+    input.btn:hover{
+        background-color: #b21e49;
+    }
+*/
 .feed-type {
   text-transform: uppercase;
 }
