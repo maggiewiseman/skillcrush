@@ -139,14 +139,22 @@ h2, label {
 
 h3 {
   font-size: 1em;
+}
+
+.feed-type {
   text-transform: uppercase;
 }
 
-h4 {
-  
+button {
+  color: #eee;
+  text-transform: uppercase;
 }
 
-btn {
+.logo {
+  font-family: 'Sansita One', cursive;
+  color: #fff;
+  background: #222;
+  text-align: center;
   
 }
 /*** ------ Mobile Layout Styles -- ***/
