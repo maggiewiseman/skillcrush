@@ -112,7 +112,8 @@ body, html {
   
 }
 
-a {
+
+a:hover {
   font-weight: bold;
   color:#23a4cc;
 }
@@ -334,11 +335,12 @@ footer {
 @media screen and (min-width: 768px) {
   /* Tablet Styles ==============================*/
   .logo {
-    margin: 0 0 0 1.25em;
+    
   }
   .logo-img {
     width: 40%;
     float: left;
+    padding: 0 0 0 2%;
   }
 
   nav {
