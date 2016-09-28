@@ -99,8 +99,11 @@ textarea {
 /* COLORS ========================================================
 Dark Pink (Magenta): #b21e49;
 Light Gray: #eeeeee;
+Medium gray: #dddddd;
+Slightly darker gray for border: #cfcacb;
 Bright Pink: #ff1256;
 Dark Grey: #222222;
+
 Blue: #23a4cc;
 ==================================================================*/
 
@@ -169,8 +172,9 @@ figure {
 }
 
 
-/* ------ Mobile Styles -- */
+/*** ------ Mobile Styles -- ***/
 
+/*** header & nav styles for mobile ***/
 main-header {
   width: 100%;
 }
@@ -193,8 +197,7 @@ nav li {
   padding: 5% 0;
 }
 
-
-
+/*** main body styles for mobile ***/
 main {
   width: 96%;
   margin: auto;
@@ -353,22 +356,26 @@ footer {
 
 @media screen and (min-width: 768px) {
   /* Tablet Styles ==============================*/
-  .logo {
-    
-  }
+  /*** header and nav styles for tablets ***/
+  
   .logo-img {
-    width: 40%;
+    width: 37%;
     float: left;
     padding: 0 0 0 2%;
   }
+  
+  .clearfix {
+    background-color: #ddd;
+  }
 
   nav {
-    width: 60%;
+    width: 57%;
     float: right;
   }
   
   nav li {
     display: inline;
+    border: none; 
   }
   
   /*** featured news item for tablet ============***/
