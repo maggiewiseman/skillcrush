@@ -142,11 +142,11 @@ h3 {
   text-transform: uppercase;
 }
 
-
-
-/* ------ Mobile Styles -- */
-
-main-header {
+.btn {
+  background-color: #ff1256;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
   width: 100%;
 }
 
@@ -155,6 +155,15 @@ main-header {
   color: #fff;
   background: #222;
   text-align: center;  
+}
+
+figure {
+  margin: 0;
+}
+/* ------ Mobile Styles -- */
+
+main-header {
+  width: 100%;
 }
 
 nav {
