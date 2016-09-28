@@ -150,6 +150,13 @@ main-header {
   width: 100%;
 }
 
+.logo {
+  font-family: 'Sansita One', cursive;
+  color: #fff;
+  background: #222;
+  text-align: center;  
+}
+
 nav {
   width: 100%;
 }
