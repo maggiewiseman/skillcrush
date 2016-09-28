@@ -112,13 +112,13 @@ body, html {
   font-size: 16px;
   color: #222;
   background-color: #eee;
-  
 }
 
 a {
   text-decoration: none;
   color: #222;
 }
+
 a:hover {
   font-weight: bold;
   color:#23a4cc;
@@ -131,13 +131,11 @@ p {
 
 h1, h2, h3, h4, label {
   font-weight: 700;
-  
 }
 
 h1 {
   font-size: 2.4em;
-  line-height: 1.6;
-  
+  line-height: 1;
 }
 
 h2, label {
@@ -157,6 +155,11 @@ h3 {
   width: 100%;
 }
 
+.sidebar-btn a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
 .logo {
   font-family: 'Sansita One', cursive;
   font-size: 2.7em;
@@ -164,7 +167,7 @@ h3 {
   background: #222;
   text-align: center;  
   margin: 0;
-  padding: .3125em;
+  padding: 7%;
 }
 
 figure {
@@ -188,6 +191,7 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 nav li {
   font-weight: 700;
   text-transform: uppercase;
@@ -253,7 +257,6 @@ aside {
 footer {
   width: 47.5%;
   margin: 0 auto;
-
 }
 
 
@@ -356,6 +359,9 @@ footer {
 
 @media screen and (min-width: 768px) {
   /* Tablet Styles ==============================*/
+  body {
+    font-size: 12px;
+  }
   /*** header and nav styles for tablets ***/
   
   .logo-img {
@@ -369,15 +375,16 @@ footer {
   }
 
   nav {
-    width: 57%;
+    width: 60%;
     float: right;
   }
   
+ 
   nav li {    
     border: none; 
     display: inline;
+    padding: 7% 3% 3% 3%;
     float: right;
-    padding: 7% 3% 0 3%;
     
   }
   
@@ -514,11 +521,31 @@ footer {
     margin: 0 auto;
   }
   
-
+  /*** nav styles for desktop ***/
+  .main-header {
+    width: 100%;
+    position: relative;
+    padding-top: 2%;
+   }
   
+  .logo-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+ 
+  .clearfix {
+    margin-bottom: 5%;
+  }
+  
+   nav li {    
+    padding: 3%;
+    
+  }
   /*** hero area styles for desktop =============***/
   .hero {
-    width:57%;
+    width:67%;
     float: left;
   }
   
@@ -566,7 +593,7 @@ footer {
   
   /*** Detail Page Styles for Desktop ***/
   article.detail {
-    width: 57%;
+    width: 67%;
     float: left;
   }
   
@@ -576,7 +603,7 @@ footer {
   }  
   
   aside.detail {
-    width: 37%;
+    width: 30%;
     clear: none;
   }
 }
