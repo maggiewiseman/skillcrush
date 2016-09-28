@@ -112,7 +112,10 @@ body, html {
   
 }
 
-
+a {
+  text-decoration: none;
+  color: #222;
+}
 a:hover {
   font-weight: bold;
   color:#23a4cc;
@@ -174,7 +177,23 @@ main-header {
 
 nav {
   width: 100%;
+  background-color: #ddd;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style: none;
+  text-align: center;
+  border-bottom: 2px solid #cfcacb;
+  padding: 5% 0;
+}
+
+
 
 main {
   width: 96%;
