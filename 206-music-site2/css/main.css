@@ -373,9 +373,12 @@ footer {
     float: right;
   }
   
-  nav li {
-    display: inline;
+  nav li {    
     border: none; 
+    display: inline;
+    float: right;
+    padding: 7% 3% 0 3%;
+    
   }
   
   /*** featured news item for tablet ============***/
@@ -510,6 +513,8 @@ footer {
     width: 940px;
     margin: 0 auto;
   }
+  
+
   
   /*** hero area styles for desktop =============***/
   .hero {
