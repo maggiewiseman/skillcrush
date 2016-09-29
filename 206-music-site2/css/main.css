@@ -493,7 +493,7 @@ footer {
     width: 60%;
   }
   
-  .btn {
+  .detail .btn {
     display: inline;
     width: 37%;
   }
@@ -576,6 +576,8 @@ footer {
     float: right;
     clear: none;
   }
+  
+ 
   
   .upcoming, .faq {
     display:block;
