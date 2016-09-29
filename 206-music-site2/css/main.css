@@ -153,6 +153,10 @@ h3 {
   text-transform: uppercase;
   display: block;
   width: 100%;
+  border: none;
+  box-shadow: 2px 2px 0px #DADADA; 
+  line-height: 2;
+  margin: 2% 0;
 }
 
 .sidebar-btn a {
