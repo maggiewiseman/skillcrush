@@ -493,6 +493,11 @@ footer {
     width: 60%;
   }
   
+  .btn {
+    display: inline;
+    width: 37%;
+  }
+  
   /*** Review Index Page Styles for Tablets =====***/
   
     /*** sidebar styles for reviews page on tablet ***/
