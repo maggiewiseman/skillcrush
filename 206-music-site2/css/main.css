@@ -155,7 +155,7 @@ h3 {
   width: 100%;
   border: none;
   box-shadow: 2px 2px 0px #DADADA; 
-  line-height: 2;
+  line-height: 2.4;
   margin: 2% 0;
 }
 
@@ -176,6 +176,12 @@ h3 {
 
 figure {
   margin: 0;
+}
+
+#email {
+  width: 98%;
+  margin: 3% 0 1% 0;
+  line-height: 2;
 }
 
 
