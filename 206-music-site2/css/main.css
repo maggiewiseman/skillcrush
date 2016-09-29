@@ -360,7 +360,7 @@ footer {
 @media screen and (min-width: 768px) {
   /* Tablet Styles ==============================*/
   body {
-    font-size: 12px;
+    font-size: 14px;  
   }
   /*** header and nav styles for tablets ***/
   
@@ -394,7 +394,7 @@ footer {
   }
   
   .top-img {
-    width: 57%;
+    width: 60%;
     float: left;
     padding: 0;
     margin: 0;
@@ -402,7 +402,7 @@ footer {
   }
   
   .top-info, .top-article-header {
-    width: 37%;
+    width: 40%;
     float: left;
   }
   
@@ -519,6 +519,7 @@ footer {
   body {
     width: 940px;
     margin: 0 auto;
+    font-size: 16px;
   }
   
   /*** nav styles for desktop ***/
