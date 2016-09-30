@@ -167,7 +167,7 @@ figure {
   text-transform: uppercase;
   display: block;
   width: 100%;
-  border: none;
+  border: 1px solid #ff1256;
   box-shadow: 2px 2px 0px #DADADA; 
   line-height: 2.4;
   margin: 2% 0;
@@ -629,8 +629,10 @@ footer {
    .detail .btn {
     display: block;
     width: 100%;
-     
+  }
   
+  .detail #email {
+    width: 100%;
   }
 }
 
