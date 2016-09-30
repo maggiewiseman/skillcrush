@@ -147,6 +147,20 @@ h3 {
   text-transform: uppercase;
 }
 
+.logo {
+  font-family: 'Sansita One', cursive;
+  font-size: 2.7em;
+  color: #fff;
+  background: #222;
+  text-align: center;  
+  margin: 0;
+  padding: 7%;
+}
+
+figure {
+  margin: 0;
+}
+
 .btn {
   background-color: #ff1256;
   color: #fff;
@@ -164,24 +178,10 @@ h3 {
   text-transform: uppercase;
 }
 
-.logo {
-  font-family: 'Sansita One', cursive;
-  font-size: 2.7em;
-  color: #fff;
-  background: #222;
-  text-align: center;  
-  margin: 0;
-  padding: 7%;
-}
-
-figure {
-  margin: 0;
-}
-
 #email {
   width: 98%;
-  margin: 3% 0 1% 0;
-  line-height: 2;
+  margin: 2% 0;
+  line-height: 2.4;
 }
 
 
@@ -502,6 +502,7 @@ footer {
   .detail .btn {
     display: inline;
     width: 37%;
+    margin-left: 1%;
   }
   
   /*** Review Index Page Styles for Tablets =====***/
@@ -623,6 +624,13 @@ footer {
   aside.detail {
     width: 30%;
     clear: none;
+  }
+  
+   .detail .btn {
+    display: block;
+    width: 100%;
+     
+  
   }
 }
 
