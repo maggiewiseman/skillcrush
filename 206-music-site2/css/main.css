@@ -149,6 +149,10 @@ h3 {
   line-height: 1;
 }
 
+.author, .pub-date {
+  font-weight: 400;
+}
+
 .logo {
   font-family: 'Sansita One', cursive;
   font-size: 2.7em;
@@ -299,10 +303,6 @@ footer .logo {
   padding:0;
 }
 
-footer .logo-img {
-  
-  
-}
 
 /*** Detail Page Styles for mobile ***/
 
