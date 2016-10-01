@@ -300,7 +300,8 @@ footer {
 
 footer .logo {
   font-size: 1.5em;
-  padding:0;
+  padding:7% 0;
+  clear: both;
 }
 
 
