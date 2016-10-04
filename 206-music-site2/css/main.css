@@ -500,12 +500,15 @@ footer .logo {
   }  
   
   .feed-img {
-    width: 33%;
+    width: 50%;
     float: left;
   }
-  
+
+  .feed-img img {
+    max-width: 200px;
+  }
   .feed-item-info {
-    width: 66%;
+    width: 50%;
     float: right;
   }
   
@@ -635,7 +638,6 @@ footer .logo {
         width: 100%;
         max-width: 620px;
         padding-bottom: 1em;
-    
     }
 
     .top-img img{
