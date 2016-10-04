@@ -260,19 +260,20 @@ aside {
   width: 100%;
 }
 
-
+/*** hero area for mobile ***/
 .top-img {
   width: 100%;
-  margin: 0;
   height: auto;
 }
 
-.top-img  img {
+.top-img img {
   max-width: 300px;
   height: auto;
   padding-top: 5%;
+  margin: 0 auto;
 }
 
+/*** sidebar for mobile ***/
 .sidebar-btn {
   width: 100%;
 }
@@ -281,6 +282,7 @@ aside {
   display: none;
 }
 
+/*** news fee for mobile ***/
 .feed {
     width: 100%;
 }
@@ -292,6 +294,7 @@ aside {
 .feed-type {
   font-size: 1em;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .feed-img {
@@ -301,11 +304,23 @@ aside {
   padding: 0;
 }
 
+.feed-img  img {
+  max-width: 125px;
+  height: auto;
+  padding-top: 2s%;
+}
+
 .feed-item-header {
   width: 60%;
   float: left;
   margin: 0;
   padding: 0;
+}
+
+.feed-item-header h3 {
+  font-size: 1em;
+  margin: 0;
+  padding-left: 5%;
 }
 
 .feed-content {
@@ -434,9 +449,7 @@ footer .logo {
     padding: 0 0 0 2%;
   }
   
-  .clearfix {
-    background-color: #ddd;
-  }
+  
 
   nav {
     width: 60%;
@@ -620,14 +633,15 @@ footer .logo {
     z-index: 10;
   }
  
-  .clearfix {
-    margin-bottom: 5%;
+  nav li {    
+    padding: 3%;  
   }
   
-   nav li {    
-    padding: 3%;
-    
+  .clearfix.header-div {
+    margin-bottom: 5%;
+    background-color: #ddd;
   }
+  
   /*** hero area styles for desktop =============***/
   .hero {
     width:67%;
