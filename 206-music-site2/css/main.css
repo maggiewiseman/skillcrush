@@ -500,17 +500,22 @@ footer .logo {
   }  
   
   .feed-img {
-    width: 33%;
+    width: 25%;
     float: left;
   }
   
   .feed-item-info {
-    width: 66%;
+    width: 75%;
     float: right;
   }
   
   .feed-item-header {
     width: 100%;
+    padding: 0;
+  }
+  
+  .feed-item-header h3 {
+    margin: 0;
   }
 
   /*** footer styles for tablet =================***/
