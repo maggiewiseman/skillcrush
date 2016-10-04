@@ -500,12 +500,12 @@ footer .logo {
   }  
   
   .feed-img {
-    width: 25%;
+    width: 33%;
     float: left;
   }
   
   .feed-item-info {
-    width: 75%;
+    width: 66%;
     float: right;
   }
   
@@ -656,8 +656,6 @@ footer .logo {
     clear: none;
   }
   
- 
-  
   .upcoming, .faq {
     display:block;
   }
@@ -672,6 +670,25 @@ footer .logo {
   
   .feed-content {
     display: block;
+  }
+  
+  .feed-img {
+    width: 25%;
+    float: left;
+  }
+  
+  .feed-item-info {
+    width: 75%;
+    float: right;
+  }
+  
+  .feed-item-header {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .feed-item-header h3 {
+    margin-bottom: 1%;
   }
   
    /*** Review Index Page Styles for Desktop ====***/
