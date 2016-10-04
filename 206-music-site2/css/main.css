@@ -209,6 +209,12 @@ figure {
 }
 
 
+.top-img {
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+
 /*** ------ Mobile Styles -- ***/
 
 /*** header & nav styles for mobile ***/
@@ -252,6 +258,19 @@ article {
 
 aside {
   width: 100%;
+}
+
+
+.top-img {
+  width: 100%;
+  margin: 0;
+  height: auto;
+}
+
+.top-img  img {
+  max-width: 300px;
+  height: auto;
+  padding-top: 5%;
 }
 
 .sidebar-btn {
@@ -443,7 +462,13 @@ footer .logo {
     float: left;
     padding: 0;
     margin: 0;
-    clear:both;
+    clear:both; 
+  }
+  
+  .top-img  img {
+    max-width: 420px;
+    height: auto;
+    padding-top: 5%;
   }
   
   .top-info, .top-article-header {
@@ -602,9 +627,16 @@ footer .logo {
   }
   
   .top-img {
-    width: 100%;
-    float: none;
-  }
+        width: 100%;
+        max-width: 620px;
+        padding-bottom: 1em;
+    
+    }
+
+    .top-img img{
+      max-width: 585px;
+      padding-top: 0;
+    }
   
   .top-info, .top-article-header {
     width: 100%;
