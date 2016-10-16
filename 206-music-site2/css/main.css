@@ -670,6 +670,7 @@ footer .logo {
     width: 30%;
     float: right;
     clear: none;
+    padding-top: 1.5em;
   }
   
   .upcoming, .faq {
@@ -729,6 +730,7 @@ footer .logo {
   aside.detail {
     width: 30%;
     clear: none;
+    padding-top: 1.5em;
   }
   
    .detail .btn {
