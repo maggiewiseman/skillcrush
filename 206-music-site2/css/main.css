@@ -347,10 +347,9 @@ footer .logo {
 
 
 /*** Reviews Index Styles for mobile ***/
-.reviews-aside .newsletter {
-  display: none;
+aside.reviews .newsletter {
+      display: none;
 }
-
 
 
 
@@ -495,7 +494,7 @@ footer .logo {
   }
   
   .upcoming, .faq {
-    display:block;
+    display: block;
   }
 
   /*** feed styles for tablet ===================***/
@@ -594,9 +593,12 @@ footer .logo {
     /*** sidebar styles for reviews page on tablet ***/
   
 
-    aside.reviews .upcoming,  
-    aside.reviews .newsletter {
+    aside.reviews .upcoming {
       display: none;
+    }
+    
+    .write-for-us {
+      padding-top: 0.7em;
     }
   
     .write-for-us, hr {
