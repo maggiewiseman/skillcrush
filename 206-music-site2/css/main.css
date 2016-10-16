@@ -513,7 +513,7 @@ footer .logo {
   }  
   
   .feed-img {
-    width: 50%;
+    width: 33%;
     float: left;
   }
 
@@ -528,6 +528,7 @@ footer .logo {
   .feed-item-header {
     width: 100%;
     padding: 0;
+    
   }
   
  
@@ -550,6 +551,13 @@ footer .logo {
       float: none;
       clear: both;
     }
+  
+  .feed-reviews .feed-item-info {
+    float: left;
+    padding-top: 1em;
+    width: 66%;
+    
+  }
   
   /*** Detail Page Styles for tablet ***/
   .detail .top-image {
