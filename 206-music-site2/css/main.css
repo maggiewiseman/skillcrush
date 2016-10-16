@@ -449,14 +449,11 @@ footer .logo {
     padding: 0 0 0 2%;
   }
   
-  
-
   nav {
     width: 60%;
     float: right;
   }
   
- 
   nav li {    
     border: none; 
     display: inline;
@@ -609,11 +606,18 @@ footer .logo {
     .write-info {
       width: 57%;
       float: left;
+      padding: 1em 0;
+    }
+  
+    .write-info h2,
+    .write-info p{
+      margin: 0;
     }
 
     .write-btn-div {
       width: 37%;
       float: right;
+      padding: 2em 0;
     }   
 }
 
