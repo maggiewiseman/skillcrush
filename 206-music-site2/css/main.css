@@ -352,8 +352,31 @@ aside.reviews .newsletter {
 }
 
 
+/*** About Styles for Mobile ***/
 
+#member-img-jack {
+  background-image: url(../img/jack-smith.png);
+}
 
+#member-img-laura {
+  background-image: url(../img/laura-walters.png);
+}
+
+#member-img-willow {
+  background-image: url(../img/willow-white.png);
+}
+
+.member-img {
+  width: 40%;
+  padding-bottom: 40%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  
+}
 
 /* ==========================================================================
    Helper classes
