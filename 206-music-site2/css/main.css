@@ -357,19 +357,22 @@ aside.reviews .newsletter {
 .top-info {
   padding-bottom: 2em;
 }
-.contact-us {
-  width: 38%;
-  float: left;
+
+.contact-us h4, 
+.contact-us p {
+  display: inline-block;
+  margin: 0.5em;
 }
 
-
+.contact-us {
+  padding-bottom: 1.5em;
+}
 .map-container {
     position: relative;
-    padding-bottom: 30%;
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
-    width: 40%;
-    float: left;
+    border: 1px solid #ccc; 
 }
  
 .map-container iframe {
