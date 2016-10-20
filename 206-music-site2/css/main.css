@@ -353,7 +353,9 @@ aside.reviews .newsletter {
 
 
 /*** About Styles for Mobile ***/
-
+.member {
+  margin: 1em 0;
+}
 #member-img-jack {
   background-image: url(../img/jack-smith.png);
 }
@@ -374,9 +376,15 @@ aside.reviews .newsletter {
   background-repeat: no-repeat;
   float: left;
   margin-right: 20px;
-  border: 1px solid #ccc;
-  
+  border: 1px solid #ccc; 
 }
+
+.member-desc {
+  display: none;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -644,6 +652,14 @@ aside.reviews .newsletter {
       float: right;
       padding: 2em 0;
     }   
+  
+/*** about page styles for tablet ***/ 
+  .member-img {
+    width: 25%;
+    padding-bottom: 25%;
+    margin-right: 20px;
+  }
+
 }
 
 @media screen and (min-width: 940px) {
@@ -777,6 +793,15 @@ aside.reviews .newsletter {
   
   .detail #email {
     width: 98%;
+  }
+
+  /*** about page styles for desktop ***/
+  .member-desc {
+    display: block;
+  }
+  
+  .member {
+    margin: 1.6em 0; 
   }
 }
 
