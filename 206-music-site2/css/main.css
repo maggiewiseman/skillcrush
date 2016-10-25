@@ -241,6 +241,10 @@ nav li {
   padding: 5% 0;
 }
 
+nav i {
+  padding-left: .5em;
+}
+
 /*** main body styles for mobile ***/
 main {
   width: 96%;
