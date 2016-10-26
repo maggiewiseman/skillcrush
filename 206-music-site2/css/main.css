@@ -432,8 +432,39 @@ aside.reviews .newsletter {
   display: none;
 }
 
+/*** Concerts page styles for mobile ***/
+.concert-item {
+  width: 100%;
+  border-bottom: 1px solid #cfcacb;
+}
 
+.box-date {
+  border: 2px solid #cfcacb;
+  width:25%;
+  margin: 1%;
+  float: left;
+}
 
+.box-date h2 {
+  margin: .4em;
+  text-align: center;
+}
+
+.concert-info {
+  width: 67%;
+  margin: 1%;
+  float: left;
+}
+
+.band-name {
+  margin-bottom: 0;
+}
+
+.location,
+.concert-date {
+  font-weight: 400;
+  margin: 0;
+}
 
 /* ==========================================================================
    Helper classes
@@ -673,7 +704,8 @@ aside.reviews .newsletter {
     /*** sidebar styles for reviews page on tablet ***/
   
 
-    aside.reviews .upcoming {
+    aside.reviews .upcoming
+    aside.concerts .newsletter {
       display: none;
     }
     
@@ -836,7 +868,8 @@ aside.reviews .newsletter {
    
     /*** sidebar styles for reviews page on desktop ***/
     aside.reviews .upcoming,  
-    aside.reviews .newsletter {
+    aside.reviews .newsletter 
+    aside.concerts .newsletter{
       display: block;
     }
   

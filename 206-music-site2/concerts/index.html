@@ -43,20 +43,36 @@
         </header>
         <div class="clearfix header-div"></div>
         <main>
-          <!-- top story / hero area + sidebar --> 
-          <section class="hero reviews">
-            <article class="top-story">
-                <figure class="top-img">
-                  <img src="../img/beirut.png" alt="band in concert" />
-                </figure>
-              <header class="top-article-header">
-                <h1><a href="">Beirut's New Album - Their Best Album Yet</a></h1>    
-              </header>
-              <p class="top-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-            </article>
+          <section class="concert-list">
+            <div class="concert-item clearfix">
+              <div class="box-date">
+                <h2>June 15</h2>
+              </div>
+              <div class="concert-info">
+                <h3 class="band-name">Laura Marling</h3>
+                <h4 class="location">Bowery Ballroom</h4>
+                <h4 class="concert-date">June 15</h4>
+                  
+                <div class="sidebar-btn"><a href="http://www.ticketmaster.com/">Buy Tickets</a></div>
+              </div>  
+            </div> <!-- end concert-item -->
+            
+            <div class="concert-item clearfix">
+              <figure class="box-date">
+                <h2>June 15</h2>
+              </figure>
+              <div class="concert-info">
+                <h3 class="band-name">Arcade Fire</h3>
+                <h4 class="location">Bowery Ballroom</h4>
+                <h4 class="concert-date">June 15</h4>
+                <div class="sidebar-btn"><a href="http://www.ticketmaster.com/">Buy Tickets</a></div>
+              </div> 
+            </div> <!-- end concert-item -->
+            
+            
           </section>
           
-          <aside class="sidebar reviews">
+          <aside class="sidebar concerts">
             <form class="newsletter">
             <label for="email" class="sidebar-header">Newsletter Signup</label>
             <input type="email" id="email" name="email" placeholder=" your@email.address"  />
@@ -64,111 +80,7 @@
             <hr>  
             </form> <!-- end newsletter form --> 
             
-            <div class="upcoming">
-              <header>
-                <h2 class="sidebar-header">Upcoming Concerts</h2>
-              </header>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor.</p>
-              <div class="sidebar-btn"><a href="/concerts"><i class="fa fa-music"></i>See All</a></div>
-            </div> <!-- end upcoming side-bar -->
-            
-
           </aside> <!-- end sidebar --> 
-          
-          <section class="write-for-us">
-            <hr>
-            <div class="write-info">
-              <h2>Want to write for us?</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum.</p>
-            </div>
-            <div class="write-btn-div">
-              <input type="button" id="newsletter-button" class="btn" value="Find out more"/>
-            </div>
-            <hr>
-          </section> <!-- end write-for-us side-bars --> 
-          <!-- reviews feed --> 
-          <section class="feed feed-reviews">
-            <header class="feed-header">
-              <h2>Recent Reviews</h2>
-            </header>
-            <article class="feed-item clearfix">
-              <h3 class="feed-type">Review</h3>
-              <figure class="feed-img">
-                <img src="../img/mumford-and-sons-lg.png" alt="mumford and sons in concert" />
-              </figure>
-              <div class="feed-item-info">
-                <header class="feed-item-header">
-                  <h3><a href="#">Mumford & Sons New Album "Wilder Mind" - Oh yes! or Oh no!?</a></h3>
-                </header>
-                <p class="feed-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eu lectus sagittis, laoreet nulla quis, pretium lorem. In hac habitasse platea dictumst. Donec laoreet rutrum tellus, vitae imperdiet libero vehicula ut. Praesent non cursus dui, euismod commodo nibh. Praesent consequat volutpat fringilla.</p>
-              </div>
-            </article>
-            <hr>
-            <article class="feed-item clearfix">
-              <h3 class="feed-type">Review</h3>
-              <figure class="feed-img">
-                <img src="../img/josegonzalezlg.png" alt="Jose Gonzalez in concert" />
-              </figure>
-              <div class="feed-item-info">
-              <header class="feed-item-header">
-                <h3><a href="#">Jose Gonzalez's New Album "Vestiges & Claws" - Hit or Miss?</a></h3>
-              </header>
-              <p class="feed-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eu lectus sagittis, laoreet nulla quis, pretium lorem. In hac habitasse platea dictumst. Donec laoreet rutrum tellus, vitae imperdiet libero vehicula ut. Praesent non cursus dui, euismod commodo nibh. Praesent consequat volutpat fringilla.</p>
-              </div>
-            </article>
-            <hr>
-            <article class="feed-item clearfix">
-              <h3 class="feed-type">Review</h3>
-              <figure class="feed-img">
-                <img src="../img/laura-marling-johnny-flynn-lg.png" alt="Laura Marling and Joynny Flynn in concert" />
-              </figure>
-              <div class="feed-item-info">
-              <header class="feed-item-header">
-                <h3><a href="#">Laura Marling Releases an Electric New Album - Is the Acoutic Gone?</a></h3>
-              </header>
-              <p class="feed-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eu lectus sagittis, laoreet nulla quis, pretium lorem. In hac habitasse platea dictumst. Donec laoreet rutrum tellus, vitae imperdiet libero vehicula ut. Praesent non cursus dui, euismod commodo nibh. Praesent consequat volutpat fringilla.</p>
-              </div>
-            </article>
-            <hr>
-            <article class="feed-item clearfix">
-              <h3 class="feed-type">Review</h3>
-              <figure class="feed-img">
-                <img src="../img/the-national-lg.png" alt="The National in concert" />
-              </figure>
-              <div class="feed-item-info">
-              <header class="feed-item-header">
-                <h3><a href="#">The National's New Single - What Does it Say About their Next Album's Sound?</a></h3>
-              </header>
-              <p class="feed-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eu lectus sagittis, laoreet nulla quis, pretium lorem. In hac habitasse platea dictumst. Donec laoreet rutrum tellus, vitae imperdiet libero vehicula ut. Praesent non cursus dui, euismod commodo nibh. Praesent consequat volutpat fringilla.</p>
-              </div>
-            </article>
-            <hr>
-            <article class="feed-item clearfix">
-              <h3 class="feed-type">Review</h3>
-              <figure class="feed-img">
-                <img src="../img/alt-j.png" alt="Alt-j in concert" />
-              </figure>
-              <div class="feed-item-info">
-              <header class="feed-item-header">
-                <h3><a href="#">alt-J's New Album - Fresh Sound & Possibly Your New Summer Soundtrack</a></h3>
-              </header>
-              <p class="feed-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eu lectus sagittis, laoreet nulla quis, pretium lorem. In hac habitasse platea dictumst. Donec laoreet rutrum tellus, vitae imperdiet libero vehicula ut. Praesent non cursus dui, euismod commodo nibh. Praesent consequat volutpat fringilla.</p>
-              </div>
-            </article>
-            <hr>
-            <article class="feed-item clearfix">
-              <h3 class="feed-type">Review</h3>
-              <figure class="feed-img">
-                <img src="../img/black-keys.png" alt="logo" />
-              </figure>
-              <div class="feed-item-info">
-              <header class="feed-item-header">
-                <h3><a href="#">The Black Keys - New Album Debut's a Rock & Country Twist</a></h3>
-              </header>
-              <p class="feed-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet, nisl ac ornare tempus, risus urna consequat ex, id pellentesque est metus vel dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eu lectus sagittis, laoreet nulla quis, pretium lorem. In hac habitasse platea dictumst. Donec laoreet rutrum tellus, vitae imperdiet libero vehicula ut. Praesent non cursus dui, euismod commodo nibh. Praesent consequat volutpat fringilla.</p>
-              </div>
-            </article> 
-          </section> <!-- end news feed --> 
         </main>
         <hr>
         <footer>
