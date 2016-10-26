@@ -725,6 +725,12 @@ aside.reviews .newsletter {
     margin-right: 20px;
   }
 
+  /*** FAQ styles for tablet ***/
+  .question {
+    padding: 0.5em 0;
+  }
+  
+  
   
 }
 
