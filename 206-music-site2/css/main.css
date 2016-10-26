@@ -740,7 +740,7 @@ aside.concerts .newsletter {
     }   
   
 /*** about page styles for tablet ***/ 
-  .top-info {
+  .top-info.about {
     width: 100%;
     padding-top: 2em;
   }
