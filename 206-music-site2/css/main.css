@@ -773,6 +773,9 @@ aside.concerts .newsletter {
     padding: 0 5%;
   }
   
+  .box-date {
+    margin-right: 0.5em;
+  }
   
 }
 
@@ -928,10 +931,6 @@ aside.concerts .newsletter {
     width: 41%;
     float: left;
     padding-right: 2%;
-  }
-  
-  .box-date {
-    margin-right: 0.5em;
   }
   
   .box-date h2 {
