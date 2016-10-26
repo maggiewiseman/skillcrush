@@ -163,6 +163,16 @@ h3 {
   padding: 7%;
 }
 
+.logo a {
+  font-family: 'Sansita One', cursive;
+  font-size: 1.2em;
+  color: #fff;
+  background: #222;
+  text-align: center;  
+  margin: 0;
+  padding: 2%;
+}
+
 figure {
   margin: 0;
 }
@@ -241,7 +251,8 @@ nav li {
   padding: 5% 0;
 }
 
-nav i {
+nav i,
+.sidebar-btn i {
   padding-right: .5em;
 }
 
