@@ -443,7 +443,6 @@ aside.reviews .newsletter {
 .box-date {
   border: 2px solid #cfcacb;
   width:25%;
-  margin: 1%;
   float: left;
   margin-top: 1em;
 }
@@ -451,6 +450,7 @@ aside.reviews .newsletter {
 .box-date h2 {
   margin: .4em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .concert-info {
@@ -710,8 +710,7 @@ aside.concerts .newsletter {
     /*** sidebar styles for reviews page on tablet ***/
   
 
-    aside.reviews .upcoming
-    aside.concerts .newsletter {
+    aside.reviews .upcoming {
       display: none;
     }
     
@@ -756,7 +755,6 @@ aside.concerts .newsletter {
     padding-bottom: 40%;
   }
   
-  
   .member-img {
     width: 25%;
     padding-bottom: 25%;
@@ -768,6 +766,12 @@ aside.concerts .newsletter {
     padding: 0.5em 0;
   }
   
+  /*** Concert page stytles for table ***/
+  .concert-list-column{
+    width: 40%;
+    float: left;
+    padding: 0 5%;
+  }
   
   
 }
@@ -874,7 +878,7 @@ aside.concerts .newsletter {
    
     /*** sidebar styles for reviews page on desktop ***/
     aside.reviews .upcoming,  
-    aside.reviews .newsletter 
+    aside.reviews .newsletter, 
     aside.concerts .newsletter{
       display: block;
     }
@@ -914,6 +918,32 @@ aside.concerts .newsletter {
   .member {
     margin: 1.6em 0; 
   }
+  
+  /*** concert page styles for desktop ***/
+  .concert-list {
+    width: 70%;
+  }
+  
+  .concert-list-column{
+    width: 41%;
+    float: left;
+    padding-right: 2%;
+  }
+  
+  .box-date {
+    margin-right: 0.5em;
+  }
+  
+  .box-date h2 {
+    font-size: 1.2em;
+    margin: .4em;
+  }
+  
+  .concert-item .band-name {
+    font-size: 1em;
+  }
+  
+  
 }
 
 @media print,
