@@ -164,12 +164,8 @@ h3 {
 }
 
 .logo a {
-  font-family: 'Sansita One', cursive;
-  font-size: 1.2em;
+  font-size: 1em;
   color: #fff;
-  background: #222;
-  text-align: center;  
-  margin: 0;
   padding: 2%;
 }
 
@@ -232,6 +228,10 @@ main-header {
   width: 100%;
 }
 
+.logo-img {
+  width: 100%;
+}
+
 nav {
   width: 100%;
   background-color: #ddd;
@@ -279,10 +279,11 @@ aside {
 .top-img {
   width: 100%;
   height: auto;
+  align-content: center;
 }
 
 .top-img img {
-  max-width: 300px;
+  max-width: 320px;
   height: auto;
   padding-top: 5%;
   margin: 0 auto;
