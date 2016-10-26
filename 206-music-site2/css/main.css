@@ -345,6 +345,7 @@ aside {
 footer {
   width: 47.5%;
   margin: 0 auto;
+  padding-top: 1.5em;
 }
 
 footer .logo {
@@ -436,6 +437,7 @@ aside.reviews .newsletter {
 .concert-item {
   width: 100%;
   border-bottom: 1px solid #cfcacb;
+  padding-bottom: 0.5em;
 }
 
 .box-date {
@@ -443,6 +445,7 @@ aside.reviews .newsletter {
   width:25%;
   margin: 1%;
   float: left;
+  margin-top: 1em;
 }
 
 .box-date h2 {
@@ -466,6 +469,9 @@ aside.reviews .newsletter {
   margin: 0;
 }
 
+aside.concerts .newsletter {
+  display: none;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
