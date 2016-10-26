@@ -703,12 +703,29 @@ aside.reviews .newsletter {
     }   
   
 /*** about page styles for tablet ***/ 
+  .top-info {
+    width: 100%;
+    padding-top: 2em;
+  }
+  
+  .contact-us {
+    width: 33%;
+    float: left;
+  }
+  
+  .map-container {
+    border: 3px solid #222; 
+    padding-bottom: 40%;
+  }
+  
+  
   .member-img {
     width: 25%;
     padding-bottom: 25%;
     margin-right: 20px;
   }
 
+  
 }
 
 @media screen and (min-width: 940px) {
