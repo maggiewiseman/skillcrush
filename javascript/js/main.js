@@ -1,9 +1,14 @@
 
 //variable to get the actual time
 	var time = new Date().getHours();
-	var partyTime = time;
+	var morning = 12;
+	var afternoon = 17;
+	var evening = 21;
+	var partyTime = 0;
+	var wakeUpTime = 8;
+	var napTime = 13;
+	var lunchTime = 12;
 
-	
 function getMessage() {
 	//variable to keep element where message appears
 	var messageSpot = document.getElementById(
@@ -16,32 +21,37 @@ function getMessage() {
 
 	//set default message and image 
 	messageSpot.innerText = "Good Day!";
-	imageSpot.src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg"
+	imageSpot.src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg";
 
-	time =11;
-
-	if (time <= 8) {
-		lolcatTime = "wakeUp";
-		messageSpot.innerText = "Wake Up!";
-		imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat1.jpg"
-	} else if(time < 12) {
-		messageSpot.innerText = "Good Morning!";
-		imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg"
-	} else if (time === 12 ) {
-		messageSpot.innerText = "Iz lunch time?";
-		imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat2.jpg"
-	}else if (time < 17) {
-		messageSpot.innerText = "Is nap time?";
-		imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg"
-	} else if (time <= 20) {
-		messageSpot.innerText = "Good Evening";
-		imageSpot.src = "../../img/cats-74a.jpg"
+	if(time == partyTime){
+			messageSpot.innerText = "Iz Partee Time!";
+			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat4.jpg";
 	} else {
-		messageSpot.innerText = "Good Night!";
-		image = "../../img/bedtimecat.jpg"
+		if (time == wakeUpTime) {
+			messageSpot.innerText = "Wake Up!";
+			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat1.jpg";
+		} else if(time < morning) {
+			messageSpot.innerText = "Good Morning!";
+			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg";
+		} else if (time == lunchTime ) {
+			messageSpot.innerText = "Iz lunch time?";
+			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat2.jpg";
+		}else if (time == napTime) {
+			messageSpot.innerText = "Iz nap time?";
+			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg";
+		}else if (time < afternoon) {
+			messageSpot.innerText = "Good afternoon!"
+			imageSpot.src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg";	
+		}else if (time < evening) {
+			messageSpot.innerText = "Good Evening";
+			imageSpot.src = "../../img/cats-74a-small.jpg";
+		} else {
+			messageSpot.innerText = "Good Night!";
+			image = "../../img/bedtimecat.jpg";
+		}
 	}
-
 }
+
 
 var showCurrentTime = function() {
 	//display the string on the webpage
@@ -56,7 +66,7 @@ var showCurrentTime = function() {
 
 	//Set hours
 	if (hours >= 12) {
-		meridian = "PM"
+		meridian = "PM";
 	}
 	if (hours > 12) {
 		hours = hours -12;
@@ -83,34 +93,58 @@ var updateClock = function(){
 	getMessage();
 };
 
-updateClock();
-setInterval(updateClock, 1000);
-
-
-
 var partyEvent = function() {
-    if (partyTime < 0) 
-    {
-        partyTime = new Date().getHours(); 
+    if (partyTime < 0) {
+      partyTime = new Date().getHours(); 
         
-		button.style.color = "#222";
-		button.innerText = "Party Over";
-		button.style["background"] = "#0A8DAB";
+			button.style.color = "#222";
+			button.innerText = "Party Over";
+			button.style["background"] = "#0A8DAB";
         // color of the button should be "#0A8DAB" (bonus!)
-    }
-    else
-    {
-        partyTime = -1;
-        var imageSpot = document.getElementById("lolcat");
-		imageSpot.src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat4.jpg";
-		button.style.color = "#fff";
-		button.innerText = "Party Time";
-		button.style["background"] = "#222";
+    } else {
+      partyTime = -1;
+			button.style.color = "#fff";
+			button.innerText = "Party Time";
+			button.style["background"] = "#222";
         // text in the button should read "PARTY TIME!"
         // color of the button should be "#222" (bonus!)
     }
 };
 
+var wakeUpEvent = function(){
+	wakeUpTime = wakeUpTimeSelector.value;
+	console.log("in wakeUpEvent: " + wakeUpTime);
+	
+};
+
+var lunchTimeEvent = function(){
+	lunchTime = lunchTimeSelector.value;
+	console.log("in lunchTimeEvent: " + lunchTime);
+	
+};
+
+var napTimeEvent = function(){
+	napTime = napTimeSelector.value;
+		console.log("in napTimeEvent");
+
+	
+};
+
 var button = document.getElementById("partyTimeButton");
 button.addEventListener("click", partyEvent);
+
+var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector");
+wakeUpTimeSelector.addEventListener('change', wakeUpEvent);
+
+var lunchTimeSelector = document.getElementById("lunchTimeSelector");
+lunchTimeSelector.addEventListener('change', lunchTimeEvent);
+
+var wakeUpTimeSelector = document.getElementById("napTimeSelector");
+napTimeSelector.addEventListener('change', napTimeEvent);
+
+partyEvent();
+updateClock();
+setInterval(updateClock, 1000);
+
+
 
