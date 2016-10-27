@@ -114,20 +114,16 @@ var partyEvent = function() {
 var wakeUpEvent = function(){
 	wakeUpTime = wakeUpTimeSelector.value;
 	console.log("in wakeUpEvent: " + wakeUpTime);
-	
 };
 
 var lunchTimeEvent = function(){
 	lunchTime = lunchTimeSelector.value;
 	console.log("in lunchTimeEvent: " + lunchTime);
-	
 };
 
 var napTimeEvent = function(){
 	napTime = napTimeSelector.value;
 		console.log("in napTimeEvent");
-
-	
 };
 
 var button = document.getElementById("partyTimeButton");
@@ -139,7 +135,7 @@ wakeUpTimeSelector.addEventListener('change', wakeUpEvent);
 var lunchTimeSelector = document.getElementById("lunchTimeSelector");
 lunchTimeSelector.addEventListener('change', lunchTimeEvent);
 
-var wakeUpTimeSelector = document.getElementById("napTimeSelector");
+var napTimeSelector = document.getElementById("napTimeSelector");
 napTimeSelector.addEventListener('change', napTimeEvent);
 
 partyEvent();
