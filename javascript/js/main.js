@@ -17,6 +17,7 @@ function getMessage() {
 	//variable to keep element where image appears
 	var imageSpot = document.getElementById("lolcat");
 
+	time = 20;
 	console.log("the time is:" + time);
 
 	//set default message and image 
