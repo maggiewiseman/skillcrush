@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cool Bunny</title>
+</head>
+<body>
+  <button id="lolcatButton">Show me the LOLCat!</button>
+  <br><br>
+  <img id="lolcatImage" src="">
+
+  <script type="text/javascript">
+
+
+  var setImage = function() {
+  	var image = document.getElementById("lolcatImage");
+  	image.src = "../../img/cool-bunny.jpg"
+  }
+
+  var button = document.getElementById("lolcatButton");
+
+  button.addEventListener("click", setImage);
+
+  </script>
+</body>
+</html>
