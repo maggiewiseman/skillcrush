@@ -1,13 +1,13 @@
-
 //variable to get the actual time
-	var time = new Date().getHours();
-	var morning = 12;
-	var afternoon = 17;
-	var evening = 21;
-	var partyTime = 0;
-	var wakeUpTime = 8;
-	var napTime = 13;
-	var lunchTime = 12;
+var time = new Date().getHours();
+
+var partyTime = 0;
+var wakeUpTime = 8;
+var lunchTime = 12;
+var napTime = 15;
+var afternoon = 17;
+var evening = 21;
+var bedTime = 22;
 
 function getMessage() {
 	//variable to keep element where message appears
@@ -17,38 +17,56 @@ function getMessage() {
 	//variable to keep element where image appears
 	var imageSpot = document.getElementById("lolcat");
 
-	time = 20;
 	console.log("the time is:" + time);
+
+	//time tests
+	//time = "";
+	// time = 0; //good morning
+	// time = 6; //good morning
+	// time = 8;  // wake-up!
+	// time = 10; // good morning
+	// time = 12; // lunch time
+	// time = 15; // nap time
+	// time = 16; // good afternoon
+	// time = 17; // good evening
+	// time = 20; // good evening
+	// time = 21; // good night
+	// time = 22; // bed time
+	// time = 23; // good night
 
 	//set default message and image 
 	messageSpot.innerText = "Good Day!";
-	imageSpot.src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg";
+	imageSpot.src="img/roll-cat.jpg";
 
 	if(time == partyTime){
 			messageSpot.innerText = "Iz Partee Time!";
-			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat4.jpg";
+			imageSpot.src = "img/party-cat.jpg";
 	} else {
 		if (time == wakeUpTime) {
 			messageSpot.innerText = "Wake Up!";
-			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat1.jpg";
-		} else if(time < morning) {
-			messageSpot.innerText = "Good Morning!";
-			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg";
-		} else if (time == lunchTime ) {
+			imageSpot.src = "img/wake-up-cat.jpg";
+		} else if (time == bedTime){
+			console.log("in bedTime if statement");
+      messageSpot.innerText = "Iz bed time?";
+			imageSpot.src = "img/bedtime-cat.jpg";
+    } else if (time == lunchTime ) {
 			messageSpot.innerText = "Iz lunch time?";
-			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat2.jpg";
-		}else if (time == napTime) {
+			imageSpot.src = "img/lunch-cat.jpg";
+		} else if (time == napTime) {
 			messageSpot.innerText = "Iz nap time?";
-			imageSpot.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg";
+			imageSpot.src = "img/nap-cat.jpg";
+		}else if(time < lunchTime) {
+			messageSpot.innerText = "Good Morning!";
+			imageSpot.src = "img/morning-cat.jpg";
 		}else if (time < afternoon) {
 			messageSpot.innerText = "Good afternoon!"
-			imageSpot.src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat5.jpg";	
+			imageSpot.src="img/roll-cat.jpg";	
 		}else if (time < evening) {
 			messageSpot.innerText = "Good Evening";
-			imageSpot.src = "../../img/cats-74a-small.jpg";
+			imageSpot.src = "img/evening-cat.jpg";
 		} else {
 			messageSpot.innerText = "Good Night!";
-			image = "../../img/bedtimecat.jpg";
+			imageSpot.src = "img/good-night-cat.jpg";
 		}
 	}
 }
@@ -124,7 +142,12 @@ var lunchTimeEvent = function(){
 
 var napTimeEvent = function(){
 	napTime = napTimeSelector.value;
-		console.log("in napTimeEvent");
+		console.log("in napTimeEvent: " + napTime);
+};
+
+var bedTimeEvent = function(){
+	bedTime = bedTimeSelector.value;
+	console.log("in bedTimeEvent: " + bedTime);
 };
 
 var button = document.getElementById("partyTimeButton");
@@ -138,6 +161,9 @@ lunchTimeSelector.addEventListener('change', lunchTimeEvent);
 
 var napTimeSelector = document.getElementById("napTimeSelector");
 napTimeSelector.addEventListener('change', napTimeEvent);
+
+var bedTimeSelector = document.getElementById("bedTimeSelector");
+bedTimeSelector.addEventListener('change', bedTimeEvent);
 
 partyEvent();
 updateClock();
